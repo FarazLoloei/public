@@ -37,7 +37,7 @@ if (correctPage != -1) {
             },
             error: function () { }
         });
-        if (fr.status == 200) { clearInterval(functionLoader); }
+        if (fr.status == 200) {alert(1); clearInterval(functionLoader); }
     }, 500);
 
     console.info('city loaded');
